@@ -1,6 +1,6 @@
 export default function Plant({ plant, addCart }) {
   return (
-    <li>
+    <li className="plant">
       <figure>{plant.image}</figure>
       <p>{plant.name}</p>
       <button onClick={() => addCart(plant)}>Add to Cart</button>
